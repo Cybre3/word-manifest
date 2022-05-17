@@ -1,0 +1,20 @@
+form textarea {
+  border: 2px solid black;
+  border-radius: 5px;
+  height: 300px;
+  width: 400px;
+}
+form label {
+  color: white;
+  font-size: x-large;
+}
+
+.content-box {
+  display: flex;
+  margin: auto;
+}
+
+.count-result {
+  display: flex;
+  flex-direction: column;
+}

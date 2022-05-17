@@ -1,0 +1,13 @@
+/* function main(strArr) {
+  let wordCountObj = {};
+  let removeNotWordCh = /[^\w]/gm;
+  let wordsArr = strArr[0]
+      .split(removeNotWordCh)
+      .filter((word) => word !== '');
+
+  for (let word of wordsArr) {
+      !wordCountObj[word] ? (wordCountObj[word] = 1) : wordCountObj[word]++;
+  }
+
+  console.log(JSON.stringify(wordCountObj));
+} */
