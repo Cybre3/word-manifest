@@ -58,14 +58,16 @@ function WordContainer(props) {
             Count
           </button>
         </div>
-        <div className="print-save-btns">
-          <button className="print-btn" onClick={printList}>
-            Print
-          </button>
-          <button className="save-btn" onClick={download}>
-            Save
-          </button>
-        </div>
+        {contentCount > 0 ? (
+          <div className="print-save-btns">
+            <button className="print-btn" onClick={printList}>
+              Print
+            </button>
+            <button className="save-btn" onClick={download}>
+              Save
+            </button>
+          </div>
+        ) : null}
         <div className="count-result" id="count-result">
           <div className="count-result-title">{`Content Count: ${contentCount}`}</div>
           <div className="entries-box">

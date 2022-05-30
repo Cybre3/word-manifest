@@ -86,3 +86,33 @@ form label {
   padding: 2px 12px;
 }
 
+@media only screen and (max-width: 800px) {
+  .content-box {
+    height: 400px;
+    min-width: 450px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .content-box {
+    min-width: 300px;
+  }
+
+  .clear-btn {
+    margin-right: 30px;
+  }
+  
+  .count-btn {
+    margin-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .clear-btn {
+    margin-right: 25px;
+  }
+  
+  .count-btn {
+    margin-left: 25px;
+  }
+}
